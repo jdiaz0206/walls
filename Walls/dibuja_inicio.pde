@@ -1,0 +1,7 @@
+////////////////////////////////////////////////////Inicio/////////////////////////////////////////////////////////////
+void dibujaInicio() {
+  fill (66,111,125);
+  image(portada, 0, 0);
+  textSize(30);
+  text("Presiona 'P' para jugar", width/2, height/2 + 110);
+}
